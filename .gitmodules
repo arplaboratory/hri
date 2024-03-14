@@ -1,0 +1,3 @@
+[submodule "JPS-Pointcloud_Transformer"]
+	path = JPS-Pointcloud_Transformer
+	url = https://github.com/arplaboratory/JPS-Pointcloud_Transformer.git

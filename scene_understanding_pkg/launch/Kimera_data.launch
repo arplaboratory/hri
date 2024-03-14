@@ -1,0 +1,14 @@
+<launch>
+    <param name="ROS_IP" value="128.238.39.183" />
+    <arg name="odom_topic" value="$(env MAV_NAME)/odom_transform_nodelet/odomBinB0_from_transform"/>
+
+    <remap from="/voxblox_node/mesh" to="/race10/voxblox_node/mesh"/>
+
+    <node name="perception_server_node" pkg="scene_understanding_pkg" type="perception_server" args="--wait" output="screen" respawn="true" >
+        <remap from="odom" to="$(arg odom_topic)"/>
+        <remap from="/hololens_pointcloud" to="/meshes_vertices_coo"/>
+    </node>
+
+    <!--node name="Hololens_Mesh_Data" pkg="scene_understanding_pkg" type="display_received_meshes_in_rviz" args="wait" output="screen" respawn="true" /-->
+
+</launch>
