@@ -6,8 +6,7 @@ This repository contains the ROS code for the Human Robot Interaction IROS 2024 
 
 ## Overview
 #### Description
-![HoloLens minimap](pictures/HoloLens_minimap.jpg)
-![Voxblox mapping](pictures/Voxblox_final.png)
+![Result](pictures/Results.png)
 
 This framework provide a spatially assisted human-drone collaborative exploration through immersive mixed reality. It incorporates novel human drone interaction modalities for a completed assisted navigation, and exploration in unknown environments. While operating the robot, the user can obtain visual mixed reality based spatial information from the drone, while assigning waypoints for the drone to follow. Furthermore, using the JPS path-planning algorithm, the drone can successfully navigate around obstacles should it encounter them while mapping the area. 
 
