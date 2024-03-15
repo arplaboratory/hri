@@ -1,24 +1,25 @@
 # Human Robot Interaction
+![Mixed Reality based exploration and mapping](pictures/main_image.png)
 A Mixed Reality Framework for Human Drone Collaborative Exploration.
 
 This repository contains the ROS code for the Human Robot Interaction IROS 2024 paper. The Unity code can be accessed through the following link: https://drive.google.com/file/d/1S4R8jkVfKLKn8YQGJedpOzbndGeRqUdM/view?usp=drive_link
 
 ## Overview
 #### Description
+![HoloLens minimap](pictures/HoloLens_minimap.jpg)
+![Voxblox mapping](pictures/Voxblox_final.png)
+
 This framework provide a spatially assisted human-drone collaborative exploration through immersive mixed reality. It incorporates novel human drone interaction modalities for a completed assisted navigation, and exploration in unknown environments. While operating the robot, the user can obtain visual mixed reality based spatial information from the drone, while assigning waypoints for the drone to follow. Furthermore, using the JPS path-planning algorithm, the drone can successfully navigate around obstacles should it encounter them while mapping the area. 
 
 If you have any questions regarding the repo or how to use the framework please feel free to post questions in the Issues. 
-
-![Screenshot](doc/git1.png)
-![Screenshot](doc/git2.jpg)
 
 **Developer: Pranav Nedunghat, Sanket Salunkhe, Luca Morando<br />
 Affiliation: [NYU ARPL](https://wp.nyu.edu/arpl/)<br />
 Maintainer: Luca Morando (lm4725@nyu.edu)<br />**
 
 ## ROS Organization
-The ROS Organization is shown in the figure below. 
-![Screenshot](doc/ros_diagram.png)
+The ROS Organization and interface with Unity and the HoloLens is shown in the figure below.
+![Flowchart](pictures/race_hololens_interface.png)
 The table below also summarized the publication and subscription scheme for the algorithm control pipeline.
 
 
