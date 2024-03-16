@@ -1,4 +1,4 @@
-# Human Robot Interaction
+# Human Drone Interaction Joint Navigation
 ![Mixed Reality based exploration and mapping](pictures/main_image.png)
 A Mixed Reality Framework for Human Drone Collaborative Exploration.
 
